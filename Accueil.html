@@ -1,0 +1,67 @@
+<html>
+  <head>	
+    <link rel="stylesheet" href="style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script type="text/javascript" src="index.js"></script>
+    <meta charset="utf-8" />
+    <title>Space Game</title>
+    <div id="Head">
+      <h1>Space Game</h1>
+      <div id="deco"></div>
+      <div id="log" style="margin-top:-50px; z-index:10;position:relative;">
+      </div>
+    </div>
+</div>
+</head>
+<body onload="headCo();">
+  <div id="inutile1">
+  </div>
+  <div id="interface1">
+    <div id="mine1">
+      <a href="#" id="crystalmine_info" onclick="get_info('crystal');"><img src="gold-mine-icon (1).png" alt="Mine1" style="position:relative; left:35%"/></a>
+      <div id="describe_crystal">
+      </div>
+    </div>
+    <div id="mine2">
+      <a href="#" id="metalmine_info" onclick="get_info('metal');"><img src="Sw_iron_mine.png" alt="Mine3" style="position:relative; left:35%"/></a>
+      <div id="describe_metal">
+      </div>
+    </div>
+    <div id="mine3">
+      <a href="#" id="droids_info"><img src="droid.png" alt="Mine2" style="position:relative; left:35%"/></a>
+      <div id="describe_droids">
+        <button id="droids" type="submit" style="z-index:2;" onclick="droids();">Add Droid</button>
+      </div>
+    </div>
+    <div id="usine">
+      <a href="#" id="factorys_info" onclick="get_info('factorys');"><img src="coal-power-plant-icon.png" style="position:relative; left:35%"/></a>
+      <div id="describe_factorys">
+      </div>
+    </div>
+  </div>	
+  <div id="inutile2">
+    
+  </div>
+  <div id="interface2">
+    <h2>Attaque(en construction)</h2>
+    <p>attaque 1 : Votre attaque contre "X" a bien réussie, vous avez réussi a voler 150 unités de matière noire.<br/>
+      attaque 2 : Votre attaque contre "X" a bien réussie, vous avez réussi a voler 150 unités de métal.<br/>
+      attaque 3 : Votre attaque contre "X" a bien réussie, vous avez réussi a voler 500 unités de cristal.<br/>
+      attaque 4 : Votre attaque contre "X" a bien réussie, vous avez réussi a voler 200 unités de cristal.<br/>
+      attaque 5 : Votre attaque contre "X" a bien réussie, vous avez réussi a voler 350 unités de matière noire.</p><br/>
+    
+    <h2>Défense</h2>
+    <p>defense 1 : "X" vous a attaque et vous a volé 265 unités de cristal<br/>
+      defense 2 : "X" vous a attaque et vous a volé 54 unités de métal<br/>
+      defense 3 : "X" vous a attaque et vous a volé 876 unités de matière noire<br/>
+      defense 4 : "X" vous a attaque et vous a volé 846 unités de matière noire<br/>
+      defense 5 : "X" vous a attaque et vous a volé 29 unités de matière noire</p><br/>
+  </div>
+  <div id="inutile3">
+    
+  </div>
+</body>
+<footer>
+  
+</footer>
+</html>
